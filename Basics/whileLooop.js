@@ -4,6 +4,7 @@ var sumNumbers = function(arrayOfNumbers) {
     while (i < arrayOfNumbers.length) {
         total += arrayOfNumbers[i];
         i++;
+        // console.log(total);
     }
     return total;
 };
